@@ -327,7 +327,7 @@ img {
 
 .work__img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
-  border: 1px solid black;
+  border: 1px solid lightgray;
   border-radius: .5rem;
   overflow: hidden;
 }
@@ -394,6 +394,18 @@ img {
 }
 
 .color {
+  color: var(--first-color);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.contact__container a{
+  color: var(--first-color);
+}
+
+.cellular{
   color: var(--first-color);
 }
 
