@@ -10,7 +10,7 @@
         <header class="l-header">
             <nav class="nav bd-grid">
                 <div>
-                    <a href="#" class="nav__logo">Nikiforos</a>
+                    <a href="#" class="nav__logo"><span class="color">N</span>ikiforos</a>
                 </div>
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
@@ -30,8 +30,8 @@
         <main class="l-main">
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Nikiforos</span><br>Web Developer</h1>
-                    <a href="#" class="button">Download CV</a>
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title"><span class="color">Nikiforos</span><br>Web Developer</h1>
+                    <a href="#" class="button" id="cv">Download CV</a>
                 </div>
 
                 <div class="home__social">
@@ -63,7 +63,7 @@
                     
                     <div>
                         <h2 class="about__subtitle">I'am Nikiforos Ioannidis</h2>
-                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                        <p class="about__text">I am a freelancer Front-End Web Developer with three years of hands-on experience in crafting immersive and user-centric digital experiences. My passion for clean, efficient code and dedication to staying abreast of the latest industry trends drive my commitment to delivering high-quality websites. Proficient in HTML, CSS, and JavaScript, I specialize in creating responsive, cross-browser-compatible interfaces that seamlessly blend functionality with aesthetics. My journey in web development has equipped me with a keen eye for design and an ability to transform ideas into visually stunning, interactive web applications. As a dedicated problem solver, I thrive on challenges and continuously seek opportunities to enhance my skills. I am excited about the ever-evolving world of web development and am ready to bring my expertise to projects that demand innovation and excellence.</p>           
                     </div>                                   
                 </div>
             </section>
@@ -83,7 +83,7 @@
 
                             </div>
                             <div>
-                                <span class="skills__percentage">85%</span>
+                                <span class="skills__percentage">80%</span>
                             </div>
                         </div>
                         <div class="skills__data">
@@ -103,19 +103,7 @@
                                 <i class='bx bxl-javascript skills__icon' ></i>
                                 <span class="skills__name">SVELTE</span>
                             </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">60%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">REACT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
+                            <div class="skills__bar skills__svelte">
                                 
                             </div>
                             <div>
@@ -124,20 +112,28 @@
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">Git</span>
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">REACT</span>
                             </div>
-                            <div class="skills__bar skills__ux">
+                            <div class="skills__bar skills__react">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">35%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-paint skills__icon'></i>
+                                <span class="skills__name">GIT</span>
+                            </div>
+                            <div class="skills__bar skills__git">
                                 
                             </div>
                             <div>
                                 <span class="skills__percentage">50%</span>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div>              
-                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
                     </div>
                 </div>
             </section>
@@ -146,20 +142,23 @@
                 <h2 class="section-title">Work</h2>
 
                 <div class="work__container bd-grid">
-                    <a href="" class="work__img">
+                    <a href="https://custom.thefutureofjewelry.com/" target="_blank" class="work__img">
                         <img src="assets/img/work1.jpg" alt="">
+                        <div class="work-title">customizer-app.tfoj</div>
                     </a>
-                    <a href="" class="work__img">
+                    <a href="https://wedding.thefutureofjewelry.com/" target="_blank" class="work__img">
                         <img src="assets/img/work2.jpg" alt="">
+                        <div class="work-title">wedding-app.tfoj</div>
                     </a>
-                    <a href="" class="work__img">
+                    <a href="https://pendant.thefutureofjewelry.com/" target="_blank" class="work__img">
                         <img src="assets/img/work3.jpg" alt="">
+                        <div class="work-title">pendant-app.tfoj</div>
                     </a>
                 </div>
             </section>
 
             <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
+                <h2 class="section-title">Find me</h2>
 
                 <div class="contact__container bd-grid">
                     <p>nioannidis@outlook.com</p>
@@ -168,13 +167,6 @@
         </main>
 
         <footer class="footer"></footer>
-        <script src="assets/js/main.js"></script>
-        <script>
-            fetch('other.html')
-                .then(response => response.text())
-                .then(data => {
-                document.getElementById('includedContent').innerHTML = data;
-            });
-        </script>
+        <script src="assets/js/script.js"></script>
     </body>
 </html>
