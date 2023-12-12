@@ -188,10 +188,6 @@ img {
   margin-bottom: var(--mb-5);
 }
 
-.home__title-color {
-  color: var(--first-color);
-}
-
 .home__social {
   display: flex;
   flex-direction: column;
@@ -302,19 +298,23 @@ img {
 }
 
 .skills__html {
-  width: 95%;
-}
-
-.skills__css {
-  width: 85%;
+  width: 80%;
 }
 
 .skills__js {
-  width: 65%;
+  width: 40%;
 }
 
-.skills__ux {
-  width: 85%;
+.skills__svelte {
+  width: 40%;
+}
+
+.skills__react {
+  width: 35%;
+}
+
+.skills__git {
+  width: 50%;
 }
 
 .skills__img {
@@ -391,6 +391,10 @@ img {
   text-align: center;
   color: black;
   margin-top: 15px;
+}
+
+.color {
+  color: var(--first-color);
 }
 
 @media screen and (max-width: 320px) {
