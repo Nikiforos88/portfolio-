@@ -6,16 +6,16 @@
   --hue-color: 224;
   --first-color: hsl(var(--hue-color), 89%, 60%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
-  --body-font: 'Poppins', sans-serif;
+   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: .938rem;
   --smaller-font-size: .75rem;
-  --mb-2: 1rem;
+   --mb-2: 1rem;
   --mb-4: 2rem;
   --mb-5: 2.5rem;
   --mb-6: 3rem;
-  --z-back: -10;
+   --z-back: -10;
   --z-fixed: 100;
 }
 
@@ -28,7 +28,6 @@
   }
 }
 
-/*===== BASE =====*/
 *, ::before, ::after {
   box-sizing: border-box;
 }
@@ -64,7 +63,6 @@ img {
   display: block;
 }
 
-/*===== CLASS CSS ===== */
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
@@ -91,7 +89,6 @@ img {
   padding-bottom: 2rem;
 }
 
-/*===== LAYOUT =====*/
 .bd-grid {
   max-width: 1024px;
   display: grid;
@@ -109,7 +106,6 @@ img {
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
-/*===== NAV =====*/
 .nav {
   height: var(--header-height);
   display: flex;
@@ -164,7 +160,6 @@ img {
   cursor: pointer;
 }
 
-/*Active menu*/
 .active::after {
   position: absolute;
   content: '';
@@ -175,12 +170,10 @@ img {
   background-color: var(--first-color);
 }
 
-/*=== Show menu ===*/
 .show {
   right: 0;
 }
 
-/*===== HOME =====*/
 .home {
   position: relative;
   row-gap: 5rem;
@@ -218,10 +211,9 @@ img {
 
 .home__img {
   position: absolute;
-  margin-top: 1em;
   right: 0;
   bottom: 0;
-  width: 230px;
+  width: 170px;
 }
 
 .home__blob {
@@ -298,7 +290,6 @@ img {
 .skills__names {
   display: flex;
   align-items: center;
-  gap: 1em;
 }
 
 .skills__bar {
@@ -312,19 +303,23 @@ img {
 }
 
 .skills__html {
-  width: 95%;
-}
-
-.skills__css {
-  width: 85%;
+  width: 80%;
 }
 
 .skills__js {
-  width: 65%;
+  width: 40%;
 }
 
-.skills__ux {
-  width: 85%;
+.skills__svelte {
+  width: 40%;
+}
+
+.skills__react {
+  width: 35%;
+}
+
+.skills__git {
+  width: 50%;
 }
 
 .skills__img {
@@ -378,6 +373,10 @@ img {
   cursor: pointer;
 }
 
+.contact {
+  text-align: center;
+}
+
 .contact__container a{
   color: var(--first-color);
 }
@@ -386,25 +385,6 @@ img {
   color: var(--first-color);
 }
 
-.skills__html {
-  width: 80%;
-}
-
-.skills__js {
-  width: 40%;
-}
-
-.skills__svelte {
-  width: 40%;
-}
-
-.skills__react {
-  width: 35%;
-}
-
-.skills__git {
-  width: 50%;
-}
 
 .skills__container {
   row-gap: 2rem;
